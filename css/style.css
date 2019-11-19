@@ -112,6 +112,8 @@ nav {
   font-family: 'Ubuntu', sans-serif;
   color: #504741;
   font-size: 24px;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 400;
 }
 
 .col-left-main ul li a{
@@ -135,16 +137,48 @@ font-family: 'Ubuntu', sans-serif;
   margin-left: 5%;
   margin-right: 5%;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
+  line-height: 28px;
+  font-family: 'Ubuntu', sans-serif;
 }
+
+.col-center h3 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #504741;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+/* COLONNA DESTRA */
 
 .col-right {
   width: 20%;
 }
 
 .col-right div {
-  background-color: green;
+  background-color: white;
   margin-bottom: 25px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.col-right div h3 {
+  font-family: 'Ubuntu', sans-serif;
+  color: #504741;
+  font-size: 24px;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 2px black;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.col-right div p {
+  line-height: 28px;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .footer {
