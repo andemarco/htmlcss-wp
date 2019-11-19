@@ -1,37 +1,42 @@
+/* GENERALE */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
-
 body {
-  background-color: black;
   height: 100vh;
   width: 99vw;
   background-image: url(../img/natural-pattern.png);
 }
-
 .page {
 width: 900px;
 margin: 20px auto;
+font-family: 'Ubuntu', sans-serif;
 }
-
 .main::after {
   content: "";
   display: table;
   clear: both;
 }
-
 .float-left {
   float: left;
   margin-top: 25px;
+}
+.col-left-head i::after {
+  content: "";
+  display: table;
+  clear: both;
 }
 .footer::after {
   content: "";
   display: table;
   clear: both;
 }
+
 /* HEADER */
+
 .header {
   height: 300px;
   position: relative;
@@ -41,7 +46,6 @@ margin: 20px auto;
   background-repeat: no-repeat;
   border: solid 7px white;
 }
-
 .logo img{
   position: absolute;
   height: 200px;
@@ -49,13 +53,11 @@ margin: 20px auto;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
 .logo h1 {
   position: absolute;
   top: 80%;
   text-align: center;
   width: 100%;
-  font-family: 'Ubuntu', sans-serif;
   font-size: 25px;
   color: white;
   text-transform: uppercase;
@@ -67,32 +69,31 @@ margin: 20px auto;
 nav {
   height: 40px;
   background-color: #504741;
-  list-style: none;
 }
-
 .menu {
   text-align: center;
-  line-height: 40px;
+  list-style: none;
 }
-
-.menu a {
+.menu li a {
+  color: #D2D1D3;
+  text-decoration: none;
+}
+.menu li {
+  line-height: 40px;
   display: inline-block;
   padding: 0 6px;
-  text-decoration: none;
-  font-family: 'Ubuntu', sans-serif;
   font-size: 13px;
-  color: white;
   text-transform: uppercase;
   border-right: double 2px #302B27;
-
 }
-
-.menu a:last-child {
+.menu li:last-child {
   border: none;
 }
-
-.menu a:hover {
+.menu li:hover {
   background-color: #302B27;
+}
+.menu li:hover a{
+  color: white;
 }
 
 /* COLONNA SINISTRA */
@@ -103,49 +104,33 @@ nav {
   border-radius: 5px;
   padding: 5px;
 }
-
 .col-left-head i {
   float: left;
   color: orange;
   font-size: 25px;
 }
-
-.col-left-head i::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 .col-left-head h3 {
   width: 60%;
   margin-left: 30px;
-  font-family: 'Ubuntu', sans-serif;
   color: #504741;
   font-size: 24px;
   text-shadow: 1px 1px 2px black;
   font-weight: 400;
 }
-
 .col-left-main ul {
   list-style: none;
-
 }
-
 .col-left-main ul li a{
 text-decoration: none;
 color: green;
 line-height: 30px;
-font-family: 'Ubuntu', sans-serif;
-
 }
-
 .col-left-main ul li a:hover {
   color: darkgreen;
   text-decoration: underline;
 }
 
 /* COLONNA CENTRALE */
-
 
 .col-center {
   background-color: white;
@@ -155,11 +140,8 @@ font-family: 'Ubuntu', sans-serif;
   border-radius: 5px;
   padding: 10px;
   line-height: 28px;
-  font-family: 'Ubuntu', sans-serif;
 }
-
 .col-center h3 {
-  font-family: 'Ubuntu', sans-serif;
   color: #504741;
   font-size: 24px;
   text-transform: uppercase;
@@ -174,16 +156,13 @@ font-family: 'Ubuntu', sans-serif;
 .col-right {
   width: 20%;
 }
-
 .col-right div {
   background-color: white;
   margin-bottom: 25px;
   border-radius: 5px;
   padding: 10px;
 }
-
 .col-right div h3 {
-  font-family: 'Ubuntu', sans-serif;
   color: #504741;
   font-size: 24px;
   margin-bottom: 30px;
@@ -191,10 +170,8 @@ font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   margin-top: 15px;
 }
-
 .col-right div p {
   line-height: 28px;
-  font-family: 'Ubuntu', sans-serif;
 }
 
 /* FOOTER  */
@@ -206,13 +183,10 @@ background-color: white;
 color: #655841;
 padding: 0 10px;
 }
-
 .footer h6 {
-  font-family: 'Ubuntu', sans-serif;
   font-weight: 400;
   font-style: italic;
 }
-
 .social-logo{
   width: 33%;
   line-height: 80px;
@@ -220,7 +194,6 @@ padding: 0 10px;
   color: #655841;
   font-size: 30px;
 }
-
 .social-logo:hover{
   color: #504741;
   font-size: 35px;
