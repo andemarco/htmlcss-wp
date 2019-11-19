@@ -54,10 +54,39 @@ margin: 20px auto;
 
 /* NAV BAR */
 
-.menu {
-  height: 45px;
-  background-color: gray;
+nav {
+  height: 40px;
+  background-color: #504741;
+  list-style: none;
 }
+
+.menu {
+  text-align: center;
+  line-height: 40px;
+}
+
+.menu a {
+  display: inline-block;
+  padding: 0 6px;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 13px;
+  color: white;
+  text-transform: uppercase;
+  border-right: double 2px #302B27;
+
+}
+
+.menu a:last-child {
+  border: none;
+}
+
+.menu a:hover {
+  background-color: #302B27;
+}
+
+/* COLONNA SINISTRA */
+
 
 .float-left {
   float: left;
