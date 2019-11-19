@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  height: 100vh;
+  width: 99vw;
+}
+
+.page {
+width: 900px;
+margin: 20px auto;
+}
+
+.main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.header {
+  height: 400px;
+  background-color: yellow;
+}
+
+.menu {
+  height: 45px;
+  background-color: gray;
+}
+
+.float-left {
+  float: left;
+  margin-top: 25px;
+  padding: 3px;
+}
+
+.col-left {
+  background-color: red;
+  width: 20%;
+}
+
+.col-center {
+  background-color: blue;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.col-right {
+  width: 20%;
+}
+
+.col-right div {
+  background-color: green;
+  margin-bottom: 25px;
+}
+
+.footer {
+height: 90px;
+background-color: pink;
+}
