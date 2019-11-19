@@ -21,6 +21,10 @@ margin: 20px auto;
   clear: both;
 }
 
+.float-left {
+  float: left;
+  margin-top: 25px;
+}
 /* HEADER */
 .header {
   height: 300px;
@@ -87,23 +91,51 @@ nav {
 
 /* COLONNA SINISTRA */
 
-
-.float-left {
-  float: left;
-  margin-top: 25px;
-  padding: 3px;
-}
-
 .col-left {
-  background-color: red;
+  background-color: white;
   width: 20%;
+  border-radius: 5px;
+  padding: 5px;
 }
+
+.col-left-head i {
+  display: inline-block;
+  color: orange;
+  font-size: 25px;
+  line-height: 100%;
+  vertical-align: top;
+}
+.col-left-head h3 {
+  width: 70%;
+  display: inline-block;
+  margin-left: 8px;
+  font-family: 'Ubuntu', sans-serif;
+  color: #504741;
+  font-size: 24px;
+}
+
+.col-left-main ul li a{
+text-decoration: none;
+color: green;
+line-height: 30px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+.col-left-main ul li a:hover {
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+/* COLONNA CENTRALE */
+
 
 .col-center {
-  background-color: blue;
+  background-color: white;
   width: 50%;
   margin-left: 5%;
   margin-right: 5%;
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .col-right {
