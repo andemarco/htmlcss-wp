@@ -11,9 +11,9 @@ body {
   background-image: url(../img/natural-pattern.png);
 }
 .page {
-width: 900px;
-margin: 20px auto;
-font-family: 'Ubuntu', sans-serif;
+  width: 900px;
+  margin: 20px auto;
+  font-family: 'Ubuntu', sans-serif;
 }
 .main::after {
   content: "";
@@ -121,9 +121,9 @@ nav {
   list-style: none;
 }
 .col-left-main ul li a{
-text-decoration: none;
-color: green;
-line-height: 30px;
+  text-decoration: none;
+  color: green;
+  line-height: 30px;
 }
 .col-left-main ul li a:hover {
   color: darkgreen;
@@ -177,11 +177,11 @@ line-height: 30px;
 /* FOOTER  */
 
 .footer {
-background-color: pink;
-text-align: center;
-background-color: white;
-color: #655841;
-padding: 0 10px;
+  background-color: pink;
+  text-align: center;
+  background-color: white;
+  color: #655841;
+  padding: 0 10px;
 }
 .footer h6 {
   font-weight: 400;
