@@ -21,10 +21,38 @@ margin: 20px auto;
   clear: both;
 }
 
+/* HEADER */
 .header {
-  height: 400px;
-  background-color: yellow;
+  height: 300px;
+  position: relative;
+  background-image: url(../img/natural-header.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: solid 7px white;
 }
+
+.logo img{
+  position: absolute;
+  height: 200px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.logo h1 {
+  position: absolute;
+  top: 80%;
+  text-align: center;
+  width: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+/* NAV BAR */
 
 .menu {
   height: 45px;
